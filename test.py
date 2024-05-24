@@ -1,5 +1,9 @@
 import requests
 import json
+
+
+resp = []
+formatted_data = []
 #********** GET ID SESION ************
 sesiones_url = "https://www.diputadosrd.gob.do/sil/api/sesion/sesiones?page=1&keyword="
 
@@ -7,20 +11,30 @@ response_sesiones = requests.get(sesiones_url)
 r  = response_sesiones.json()
 
 id_sesion = str(r['results'][0]['sesionId'])
-print(id_sesion)
 
 #********** GET ID ASISTENCIA ************
 sesiones_url = "https://www.diputadosrd.gob.do/sil/api/asistencia/sesion/?sesionId="+id_sesion
 
 response_resumen_asistencia = requests.get(sesiones_url)
 r  = response_resumen_asistencia.json()
-
 id_asistencia = str(r['id'])
-print(id_asistencia) 
+
+resumen_sesion = []
+resumen_sesion.append({
+    'id_asistencia': r['id'],
+    'id_sesion': r['sesion']['id'],
+    'fecha':r['fecha'],
+    'cantidadDelegados':r['cantidadAsistencia']['cantidadDelegados'],
+    'cantidadPresentes':r['cantidadAsistencia']['cantidadPresentes'],
+    'cantidadAusentes':r['cantidadAsistencia']['cantidadAusentes'],
+    'totalLegisladores':r['cantidadAsistencia']['totalLegisladores'],
+})
+print(resumen_sesion)
+formatted_data.append({'resumen_sesion':resumen_sesion})
+
 
 #*********************** GET LISTA ASISTENCIA ***************************************
-resp = []
-formatted_data = []
+
 
 for x in range(19):
     

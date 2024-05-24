@@ -1,5 +1,18 @@
 [
     {
+        "resumen_sesion": [
+            {
+                "id_asistencia": 12578,
+                "id_sesion": 133316,
+                "fecha": "2024-05-22T00:00:00",
+                "cantidadDelegados": 0,
+                "cantidadPresentes": 120,
+                "cantidadAusentes": 70,
+                "totalLegisladores": 190
+            }
+        ]
+    },
+    {
         "legisladorId": 3341,
         "nombreCompleto": "Adelis de Jes\u00fas Olivares Ortega",
         "presente": false,
