@@ -23,13 +23,14 @@ resumen_sesion = []
 resumen_sesion.append({
     'id_asistencia': r['id'],
     'id_sesion': r['sesion']['id'],
+    'numero': r['sesion']['numero'],
+    'lugar': r['sesion']['lugar'],
     'fecha':r['fecha'],
     'cantidadDelegados':r['cantidadAsistencia']['cantidadDelegados'],
     'cantidadPresentes':r['cantidadAsistencia']['cantidadPresentes'],
     'cantidadAusentes':r['cantidadAsistencia']['cantidadAusentes'],
     'totalLegisladores':r['cantidadAsistencia']['totalLegisladores'],
 })
-print(resumen_sesion)
 formatted_data.append({'resumen_sesion':resumen_sesion})
 
 
@@ -60,7 +61,7 @@ for x in range(19):
             'excusa': excusa
         })
 
-with open("gente.json","w") as write_file:
-    json.dump(formatted_data, write_file, indent=4)
+with open("gente.json","w", encoding='utf-8') as write_file:
+    json.dump(formatted_data, write_file, ensure_ascii=False, indent=4)
 
 print(formatted_data)
