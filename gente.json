@@ -1,1157 +1,1162 @@
 [
     {
-        "resumen_sesion": [
-            {
-                "id_asistencia": 12578,
-                "id_sesion": 133316,
-                "numero": "00011-2024-PLO",
-                "lugar": "Hemiciclo Cámara de Diputados",
-                "fecha": "2024-05-22T00:00:00",
-                "cantidadDelegados": 0,
-                "cantidadPresentes": 120,
-                "cantidadAusentes": 70,
-                "totalLegisladores": 190
-            }
-        ]
-    },
-    {
-        "legisladorId": 3341,
-        "nombreCompleto": "Adelis de Jesús Olivares Ortega",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3379,
-        "nombreCompleto": "Agustín  Burgos Tejada",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3483,
-        "nombreCompleto": "Aida Nilsa López Reyna de Ceballos",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3565,
-        "nombreCompleto": "Alexander  Javier Cuevas",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2816,
-        "nombreCompleto": "Alexis Isaac Jiménez González",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3435,
-        "nombreCompleto": "Alfredo  Pacheco Osoria",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3484,
-        "nombreCompleto": "Altagracia Yarelys Encarnación Gerónimo",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3395,
-        "nombreCompleto": "Amado Antonio Díaz Jiménez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3358,
-        "nombreCompleto": "Ana Adalgiza del Carmen Abreu Polanco",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3438,
-        "nombreCompleto": "Ana María Peña Raposo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3373,
-        "nombreCompleto": "Ana Mercedes Rodríguez de Aguasvivas",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3513,
-        "nombreCompleto": "Ángel Teófilo Estévez Estévez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2848,
-        "nombreCompleto": "Aquilino  Serrata Uceta",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3546,
-        "nombreCompleto": "Bolívar Ernesto Valera Ariza",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3452,
-        "nombreCompleto": "Braulio de Jesús Espinal Tavárez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3512,
-        "nombreCompleto": "Brenda Mercedes Ogando Campos",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3545,
-        "nombreCompleto": "Carlixta Carolina Paula de la Cruz",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3368,
-        "nombreCompleto": "Carlos Alberto Amarante García",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3514,
-        "nombreCompleto": "Carlos Alberto Ramírez Filpo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3485,
-        "nombreCompleto": "Carlos Higinio de Jesús Veras",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3455,
-        "nombreCompleto": "Carlos José Gil Rodríguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2798,
-        "nombreCompleto": "Carlos María García Gómez",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3515,
-        "nombreCompleto": "Carlos Máximo Mejía Abreu",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3486,
-        "nombreCompleto": "Carlos  Sánchez Quezada",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3516,
-        "nombreCompleto": "César Santiago L. de J. Rutinel Domínguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3457,
-        "nombreCompleto": "Charlene  Canaán Cabrera",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3426,
-        "nombreCompleto": "Damarys  Vásquez Castillo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3517,
-        "nombreCompleto": "Danny Rafael Guzmán Rosario",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3427,
-        "nombreCompleto": "Darío de Jesús Zapata Estévez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3518,
-        "nombreCompleto": "Diómedes Omar Rojas ",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3458,
-        "nombreCompleto": "Dolores Emilia Fermín Beltrán de Durán",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3389,
-        "nombreCompleto": "Domingo Eusebio de León Mascaro",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3605,
-        "nombreCompleto": "Dorina Yajaira Rodríguez Salazar",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3604,
-        "nombreCompleto": "Dulce Mercedes Quiñones ",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3547,
-        "nombreCompleto": "Eddy Oscar Montás Guerrero",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3459,
-        "nombreCompleto": "Edirda Yoalis De Oleo Peña",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3566,
-        "nombreCompleto": "Eduard Alexis Espiritusanto Castillo",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 2808,
-        "nombreCompleto": "Eduardo  Hidalgo Abreu",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3487,
-        "nombreCompleto": "Eduviges María Bautista Gomera",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3370,
-        "nombreCompleto": "Elías  Báez de los Santos",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3460,
-        "nombreCompleto": "Elías  Wessin Chávez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3548,
-        "nombreCompleto": "Eliazer  Matos Féliz",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3488,
-        "nombreCompleto": "Emmanuel  Morales Paulino",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3489,
-        "nombreCompleto": "Enriqueta  Rojas Javier",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3608,
-        "nombreCompleto": "Estamy Rafaela Colón Tatis",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3549,
-        "nombreCompleto": "Esteban Antonio Cruz ",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1454,
-        "nombreCompleto": "Eugenio  Cedeño Areche",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3550,
-        "nombreCompleto": "Fabiana  Tapia Valenzuela",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3490,
-        "nombreCompleto": "Faustina  Guerrero Cabrera",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1548,
-        "nombreCompleto": "Félix Antonio Castillo Rodríguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3519,
-        "nombreCompleto": "Félix Michell Rodríguez Morel",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3520,
-        "nombreCompleto": "Félix Santiago Hiciano Almánzar",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3551,
-        "nombreCompleto": "Fior Daliza Peguero Varela",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3521,
-        "nombreCompleto": "Francisco Alberto Díaz García",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3522,
-        "nombreCompleto": "Francisco Antonio Solimán Rijo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3436,
-        "nombreCompleto": "Francisco  Javier Paulino",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3491,
-        "nombreCompleto": "Francisco Rodolfo Villegas Pérez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3456,
-        "nombreCompleto": "Frank Junior Guerrero Mateo",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3492,
-        "nombreCompleto": "Franklin  Martínez ",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3461,
-        "nombreCompleto": "Franklin  Ramírez de los Santos",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3462,
-        "nombreCompleto": "Gaddis Enrique Corporán Segura",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3523,
-        "nombreCompleto": "Geraldo Antonio Concepción Vargas",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3524,
-        "nombreCompleto": "Gerardo Alfredo Casanova Jiménez",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2836,
-        "nombreCompleto": "Getrude  Ramírez Cabral",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3493,
-        "nombreCompleto": "Gilberto Antonio Balbuena Arias",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3463,
-        "nombreCompleto": "Gregorio  Domínguez Domínguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3606,
-        "nombreCompleto": "Gustavo Adolfo Rodríguez Espinal",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1611,
-        "nombreCompleto": "Gustavo Antonio Sánchez García",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3525,
-        "nombreCompleto": "Gustavo  Lara Salazar",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 2842,
-        "nombreCompleto": "Hamlet Amado Sánchez Melo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3494,
-        "nombreCompleto": "Héctor Bienvenido Ramírez Bidó",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2793,
-        "nombreCompleto": "Héctor Darío Féliz Féliz",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3464,
-        "nombreCompleto": "Heriberto  Aracena Montilla",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3465,
-        "nombreCompleto": "Ignacio  Aracena ",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3434,
-        "nombreCompleto": "Isabel Jacqueline Ortiz Flores",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3552,
-        "nombreCompleto": "Israel Porfirio Bienvenido Mañón Alcántara",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3369,
-        "nombreCompleto": "Ivannia  Rivera Núñez",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3495,
-        "nombreCompleto": "Jefry José Grullón Lugo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3466,
-        "nombreCompleto": "Jesús Bienvenido Ogando Gil",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3467,
-        "nombreCompleto": "Jesús Manuel Sánchez Martínez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1578,
-        "nombreCompleto": "Jesús  Martínez Alberty",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3553,
-        "nombreCompleto": "Jhonny de Jesús Medina Santos",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3611,
-        "nombreCompleto": "Joel Antonio Cabrera Núñez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3496,
-        "nombreCompleto": "Jorge Hugo Cavoli Balbuena",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3610,
-        "nombreCompleto": "José  de los Santos Fructuoso Dipré",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3497,
-        "nombreCompleto": "José Benedicto Hernández Tejada",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3468,
-        "nombreCompleto": "José David Pérez Reyes",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1616,
-        "nombreCompleto": "José Francisco A. A. Santana Suriel",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3554,
-        "nombreCompleto": "José Horacio Rodríguez Grullón",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3386,
-        "nombreCompleto": "José Luis Rodríguez Hiciano",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2775,
-        "nombreCompleto": "José Miguel Cabrera ",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3526,
-        "nombreCompleto": "José Miguel Ferreiras Torres",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3527,
-        "nombreCompleto": "José Moisés Ortiz López",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3555,
-        "nombreCompleto": "José Rafael Hernández Portes",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3556,
-        "nombreCompleto": "Josefa Altagracia Mejía Macea",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3425,
-        "nombreCompleto": "Juan Agustín Medina Santos",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3498,
-        "nombreCompleto": "Juan Alberto Aquino Montero",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3499,
-        "nombreCompleto": "Juan Carlos Echavarría Milané",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3557,
-        "nombreCompleto": "Juan Dionicio Rodríguez Restituyo",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3558,
-        "nombreCompleto": "Juan José Rojas Franco",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1546,
-        "nombreCompleto": "Juan Julio Campos Ventura",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1622,
-        "nombreCompleto": "Juan  Suazo Marte",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3559,
-        "nombreCompleto": "Julio César López Peña",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3528,
-        "nombreCompleto": "Julio Emil Durán Rodríguez",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3404,
-        "nombreCompleto": "Julito  Fulcar Encarnación",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3560,
-        "nombreCompleto": "Kenia Felicia Bidó Parra de Dell´Aquila",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3561,
-        "nombreCompleto": "Leonardo Alfonso Aguilera Quijano",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3469,
-        "nombreCompleto": "Lily Germania Florentino Rosario",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3470,
-        "nombreCompleto": "Llanelis  Matos Cuevas",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3446,
-        "nombreCompleto": "Lourdes Josefina Aybar Dionisio",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3529,
-        "nombreCompleto": "Lucrecia  Santana Leyba",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3609,
-        "nombreCompleto": "Luis Alberto Núñez Castro",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3500,
-        "nombreCompleto": "Luis Alcides Báez ",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3424,
-        "nombreCompleto": "Luis Antonio Vargas Ramírez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3603,
-        "nombreCompleto": "Luis  Gómez Benzo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3399,
-        "nombreCompleto": "Luis Manuel Henríquez Beato",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1613,
-        "nombreCompleto": "Luis Rafael Sánchez Rosario",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3471,
-        "nombreCompleto": "Luis René Fernández Tavárez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1589,
-        "nombreCompleto": "Lupe  Núñez Rosario",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1605,
-        "nombreCompleto": "Magda Alina Altagracia Rodríguez Azcona",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1486,
-        "nombreCompleto": "Manuel Antonio Díaz Santos",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1488,
-        "nombreCompleto": "Manuel Elpidio Báez Mejía",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3402,
-        "nombreCompleto": "Manuel Miguel Florián Terrero",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3530,
-        "nombreCompleto": "Margarita  Tejeda de la Rosa",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3531,
-        "nombreCompleto": "María Elisa Suárez Alcalá",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2795,
-        "nombreCompleto": "María Mercedes Fernández Cruz",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3607,
-        "nombreCompleto": "Marta de Jesús Collado Ozoria de López",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3501,
-        "nombreCompleto": "Mateo Evangelista Espaillat Tavárez",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 1494,
-        "nombreCompleto": "Máximo  Castro ",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3502,
-        "nombreCompleto": "Mélido  Mercedes Castillo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3407,
-        "nombreCompleto": "Melvin Alexis Lara Melo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3472,
-        "nombreCompleto": "Miguel Alberto Bogaert Marra",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3474,
-        "nombreCompleto": "Miguel Ángel de los Santos Figueroa",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3475,
-        "nombreCompleto": "Moisés  Ayala Pérez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3412,
-        "nombreCompleto": "Napoleón  López Rodríguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3532,
-        "nombreCompleto": "Nelsa Shoraya Suárez Ariza",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3533,
-        "nombreCompleto": "Nelson Rafael Marmolejos Gil",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3503,
-        "nombreCompleto": "Nicolás  Hidalgo Almánzar",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3411,
-        "nombreCompleto": "Nicolás Tolentino López Mercado",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3355,
-        "nombreCompleto": "Nidio  Encarnación Santiago",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3505,
-        "nombreCompleto": "Nolberto  Ortiz De La Cruz",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3534,
-        "nombreCompleto": "Norberto  Rodríguez Vásquez",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3535,
-        "nombreCompleto": "Olfanny Yuverka Méndez Matos",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3536,
-        "nombreCompleto": "Omar Leonel Fernández Domínguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3420,
-        "nombreCompleto": "Orlando Antonio Martínez Peña",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3476,
-        "nombreCompleto": "Orlando Salvador Jorge Villegas",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3477,
-        "nombreCompleto": "Otoniel  Tejeda Martínez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3478,
-        "nombreCompleto": "Pedro Antonio Martínez Moronta",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3440,
-        "nombreCompleto": "Pedro Antonio Tineo Núñez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3506,
-        "nombreCompleto": "Pedro César Mota Pacheco",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3507,
-        "nombreCompleto": "Pedro Julio Alcántara ",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 2772,
-        "nombreCompleto": "Pedro Tomás Botello Solimán",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1592,
-        "nombreCompleto": "Plutarco  Pérez ",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3537,
-        "nombreCompleto": "Priscila Celvia D´Oleo Agüero",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2776,
-        "nombreCompleto": "Radhamés  Camacho Cuevas",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3538,
-        "nombreCompleto": "Rafael Aníbal Díaz Rodríguez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2760,
-        "nombreCompleto": "Rafael Antonio Abel Lora",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3479,
-        "nombreCompleto": "Rafael Augusto Castillo Casado",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3480,
-        "nombreCompleto": "Rafael  Cuevas Jiménez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 2784,
-        "nombreCompleto": "Rafael Tobías Crespo Pérez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3364,
-        "nombreCompleto": "Rafaela  Alburquerque de González",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3508,
-        "nombreCompleto": "Ramón Alberto Dorrejo Calvo",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3509,
-        "nombreCompleto": "Ramón Aníbal Olea Mejía",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1509,
-        "nombreCompleto": "Ramón Antonio Bueno Patiño",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3539,
-        "nombreCompleto": "Ramón María Ceballo Martes",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3540,
-        "nombreCompleto": "Ramón Mayobanex Martínez Durán",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3376,
-        "nombreCompleto": "Rogelio Alfonso Genao Lanza",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3541,
-        "nombreCompleto": "Román  de Jesús Vargas",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3481,
-        "nombreCompleto": "Rosa Amalia Pilarte López",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3372,
-        "nombreCompleto": "Rosa Hilda Genao Díaz",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3482,
-        "nombreCompleto": "Rosendy Joel Polanco Polanco",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1513,
-        "nombreCompleto": "Rubén Darío Maldonado Díaz",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 1583,
-        "nombreCompleto": "Rudy María Méndez ",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3510,
-        "nombreCompleto": "Sadoky  Duarte Suárez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3356,
-        "nombreCompleto": "Sandra Herminia Abinader Suero de Prieto",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1517,
-        "nombreCompleto": "Santiago  Vilorio Lizardo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3562,
-        "nombreCompleto": "Saury Antonio Mota Ramírez",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3430,
-        "nombreCompleto": "Sergio  Moya de la Cruz",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3542,
-        "nombreCompleto": "Servia Augusta Familia Echabarría",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 3543,
-        "nombreCompleto": "Sócrates  Pérez Lorenzo",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3544,
-        "nombreCompleto": "Sonia  Agüero Morales",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 1574,
-        "nombreCompleto": "Tulio  Jiménez Díaz",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3563,
-        "nombreCompleto": "Verónica María Contreras de Jesús",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3401,
-        "nombreCompleto": "Víctor Manuel Fadul Lantigua",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1621,
-        "nombreCompleto": "Víctor Valdemar Suárez Díaz",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3564,
-        "nombreCompleto": "Ycelmary  Brito O´Neal",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1559,
-        "nombreCompleto": "Ydenia  Doñé Tiburcio",
-        "presente": true,
-        "excusa": false
-    },
-    {
-        "legisladorId": 3511,
-        "nombreCompleto": "Yenrry Manuel Acosta Ovalle",
-        "presente": false,
-        "excusa": true
-    },
-    {
-        "legisladorId": 1553,
-        "nombreCompleto": "Ysabel  de la Cruz Javier",
-        "presente": false,
-        "excusa": false
-    },
-    {
-        "legisladorId": 1528,
-        "nombreCompleto": "Yuderka Yvelisse de la Rosa Guerrero",
-        "presente": false,
-        "excusa": false
+        "id": "f6a5918e-d3ba-42a7-b39d-3638d4b83694",
+        "sesion": {
+            "resumen_sesion": [
+                {
+                    "id_asistencia": 12578,
+                    "id_sesion": 133316,
+                    "numero": "00011-2024-PLO",
+                    "lugar": "Hemiciclo Cámara de Diputados",
+                    "fecha": "2024-05-22T00:00:00",
+                    "cantidadDelegados": 0,
+                    "cantidadPresentes": 120,
+                    "cantidadAusentes": 70,
+                    "totalLegisladores": 190
+                }
+            ],
+            "asistencia": [
+                {
+                    "legisladorId": 3341,
+                    "nombreCompleto": "Adelis de Jesús Olivares Ortega",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3379,
+                    "nombreCompleto": "Agustín  Burgos Tejada",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3483,
+                    "nombreCompleto": "Aida Nilsa López Reyna de Ceballos",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3565,
+                    "nombreCompleto": "Alexander  Javier Cuevas",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2816,
+                    "nombreCompleto": "Alexis Isaac Jiménez González",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3435,
+                    "nombreCompleto": "Alfredo  Pacheco Osoria",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3484,
+                    "nombreCompleto": "Altagracia Yarelys Encarnación Gerónimo",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3395,
+                    "nombreCompleto": "Amado Antonio Díaz Jiménez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3358,
+                    "nombreCompleto": "Ana Adalgiza del Carmen Abreu Polanco",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3438,
+                    "nombreCompleto": "Ana María Peña Raposo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3373,
+                    "nombreCompleto": "Ana Mercedes Rodríguez de Aguasvivas",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3513,
+                    "nombreCompleto": "Ángel Teófilo Estévez Estévez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2848,
+                    "nombreCompleto": "Aquilino  Serrata Uceta",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3546,
+                    "nombreCompleto": "Bolívar Ernesto Valera Ariza",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3452,
+                    "nombreCompleto": "Braulio de Jesús Espinal Tavárez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3512,
+                    "nombreCompleto": "Brenda Mercedes Ogando Campos",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3545,
+                    "nombreCompleto": "Carlixta Carolina Paula de la Cruz",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3368,
+                    "nombreCompleto": "Carlos Alberto Amarante García",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3514,
+                    "nombreCompleto": "Carlos Alberto Ramírez Filpo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3485,
+                    "nombreCompleto": "Carlos Higinio de Jesús Veras",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3455,
+                    "nombreCompleto": "Carlos José Gil Rodríguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2798,
+                    "nombreCompleto": "Carlos María García Gómez",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3515,
+                    "nombreCompleto": "Carlos Máximo Mejía Abreu",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3486,
+                    "nombreCompleto": "Carlos  Sánchez Quezada",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3516,
+                    "nombreCompleto": "César Santiago L. de J. Rutinel Domínguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3457,
+                    "nombreCompleto": "Charlene  Canaán Cabrera",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3426,
+                    "nombreCompleto": "Damarys  Vásquez Castillo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3517,
+                    "nombreCompleto": "Danny Rafael Guzmán Rosario",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3427,
+                    "nombreCompleto": "Darío de Jesús Zapata Estévez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3518,
+                    "nombreCompleto": "Diómedes Omar Rojas ",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3458,
+                    "nombreCompleto": "Dolores Emilia Fermín Beltrán de Durán",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3389,
+                    "nombreCompleto": "Domingo Eusebio de León Mascaro",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3605,
+                    "nombreCompleto": "Dorina Yajaira Rodríguez Salazar",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3604,
+                    "nombreCompleto": "Dulce Mercedes Quiñones ",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3547,
+                    "nombreCompleto": "Eddy Oscar Montás Guerrero",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3459,
+                    "nombreCompleto": "Edirda Yoalis De Oleo Peña",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3566,
+                    "nombreCompleto": "Eduard Alexis Espiritusanto Castillo",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 2808,
+                    "nombreCompleto": "Eduardo  Hidalgo Abreu",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3487,
+                    "nombreCompleto": "Eduviges María Bautista Gomera",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3370,
+                    "nombreCompleto": "Elías  Báez de los Santos",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3460,
+                    "nombreCompleto": "Elías  Wessin Chávez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3548,
+                    "nombreCompleto": "Eliazer  Matos Féliz",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3488,
+                    "nombreCompleto": "Emmanuel  Morales Paulino",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3489,
+                    "nombreCompleto": "Enriqueta  Rojas Javier",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3608,
+                    "nombreCompleto": "Estamy Rafaela Colón Tatis",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3549,
+                    "nombreCompleto": "Esteban Antonio Cruz ",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1454,
+                    "nombreCompleto": "Eugenio  Cedeño Areche",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3550,
+                    "nombreCompleto": "Fabiana  Tapia Valenzuela",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3490,
+                    "nombreCompleto": "Faustina  Guerrero Cabrera",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1548,
+                    "nombreCompleto": "Félix Antonio Castillo Rodríguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3519,
+                    "nombreCompleto": "Félix Michell Rodríguez Morel",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3520,
+                    "nombreCompleto": "Félix Santiago Hiciano Almánzar",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3551,
+                    "nombreCompleto": "Fior Daliza Peguero Varela",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3521,
+                    "nombreCompleto": "Francisco Alberto Díaz García",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3522,
+                    "nombreCompleto": "Francisco Antonio Solimán Rijo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3436,
+                    "nombreCompleto": "Francisco  Javier Paulino",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3491,
+                    "nombreCompleto": "Francisco Rodolfo Villegas Pérez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3456,
+                    "nombreCompleto": "Frank Junior Guerrero Mateo",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3492,
+                    "nombreCompleto": "Franklin  Martínez ",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3461,
+                    "nombreCompleto": "Franklin  Ramírez de los Santos",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3462,
+                    "nombreCompleto": "Gaddis Enrique Corporán Segura",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3523,
+                    "nombreCompleto": "Geraldo Antonio Concepción Vargas",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3524,
+                    "nombreCompleto": "Gerardo Alfredo Casanova Jiménez",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2836,
+                    "nombreCompleto": "Getrude  Ramírez Cabral",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3493,
+                    "nombreCompleto": "Gilberto Antonio Balbuena Arias",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3463,
+                    "nombreCompleto": "Gregorio  Domínguez Domínguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3606,
+                    "nombreCompleto": "Gustavo Adolfo Rodríguez Espinal",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1611,
+                    "nombreCompleto": "Gustavo Antonio Sánchez García",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3525,
+                    "nombreCompleto": "Gustavo  Lara Salazar",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 2842,
+                    "nombreCompleto": "Hamlet Amado Sánchez Melo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3494,
+                    "nombreCompleto": "Héctor Bienvenido Ramírez Bidó",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2793,
+                    "nombreCompleto": "Héctor Darío Féliz Féliz",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3464,
+                    "nombreCompleto": "Heriberto  Aracena Montilla",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3465,
+                    "nombreCompleto": "Ignacio  Aracena ",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3434,
+                    "nombreCompleto": "Isabel Jacqueline Ortiz Flores",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3552,
+                    "nombreCompleto": "Israel Porfirio Bienvenido Mañón Alcántara",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3369,
+                    "nombreCompleto": "Ivannia  Rivera Núñez",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3495,
+                    "nombreCompleto": "Jefry José Grullón Lugo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3466,
+                    "nombreCompleto": "Jesús Bienvenido Ogando Gil",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3467,
+                    "nombreCompleto": "Jesús Manuel Sánchez Martínez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1578,
+                    "nombreCompleto": "Jesús  Martínez Alberty",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3553,
+                    "nombreCompleto": "Jhonny de Jesús Medina Santos",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3611,
+                    "nombreCompleto": "Joel Antonio Cabrera Núñez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3496,
+                    "nombreCompleto": "Jorge Hugo Cavoli Balbuena",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3610,
+                    "nombreCompleto": "José  de los Santos Fructuoso Dipré",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3497,
+                    "nombreCompleto": "José Benedicto Hernández Tejada",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3468,
+                    "nombreCompleto": "José David Pérez Reyes",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1616,
+                    "nombreCompleto": "José Francisco A. A. Santana Suriel",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3554,
+                    "nombreCompleto": "José Horacio Rodríguez Grullón",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3386,
+                    "nombreCompleto": "José Luis Rodríguez Hiciano",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2775,
+                    "nombreCompleto": "José Miguel Cabrera ",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3526,
+                    "nombreCompleto": "José Miguel Ferreiras Torres",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3527,
+                    "nombreCompleto": "José Moisés Ortiz López",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3555,
+                    "nombreCompleto": "José Rafael Hernández Portes",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3556,
+                    "nombreCompleto": "Josefa Altagracia Mejía Macea",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3425,
+                    "nombreCompleto": "Juan Agustín Medina Santos",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3498,
+                    "nombreCompleto": "Juan Alberto Aquino Montero",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3499,
+                    "nombreCompleto": "Juan Carlos Echavarría Milané",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3557,
+                    "nombreCompleto": "Juan Dionicio Rodríguez Restituyo",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3558,
+                    "nombreCompleto": "Juan José Rojas Franco",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1546,
+                    "nombreCompleto": "Juan Julio Campos Ventura",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1622,
+                    "nombreCompleto": "Juan  Suazo Marte",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3559,
+                    "nombreCompleto": "Julio César López Peña",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3528,
+                    "nombreCompleto": "Julio Emil Durán Rodríguez",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3404,
+                    "nombreCompleto": "Julito  Fulcar Encarnación",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3560,
+                    "nombreCompleto": "Kenia Felicia Bidó Parra de Dell´Aquila",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3561,
+                    "nombreCompleto": "Leonardo Alfonso Aguilera Quijano",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3469,
+                    "nombreCompleto": "Lily Germania Florentino Rosario",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3470,
+                    "nombreCompleto": "Llanelis  Matos Cuevas",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3446,
+                    "nombreCompleto": "Lourdes Josefina Aybar Dionisio",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3529,
+                    "nombreCompleto": "Lucrecia  Santana Leyba",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3609,
+                    "nombreCompleto": "Luis Alberto Núñez Castro",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3500,
+                    "nombreCompleto": "Luis Alcides Báez ",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3424,
+                    "nombreCompleto": "Luis Antonio Vargas Ramírez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3603,
+                    "nombreCompleto": "Luis  Gómez Benzo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3399,
+                    "nombreCompleto": "Luis Manuel Henríquez Beato",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1613,
+                    "nombreCompleto": "Luis Rafael Sánchez Rosario",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3471,
+                    "nombreCompleto": "Luis René Fernández Tavárez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1589,
+                    "nombreCompleto": "Lupe  Núñez Rosario",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1605,
+                    "nombreCompleto": "Magda Alina Altagracia Rodríguez Azcona",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1486,
+                    "nombreCompleto": "Manuel Antonio Díaz Santos",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1488,
+                    "nombreCompleto": "Manuel Elpidio Báez Mejía",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3402,
+                    "nombreCompleto": "Manuel Miguel Florián Terrero",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3530,
+                    "nombreCompleto": "Margarita  Tejeda de la Rosa",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3531,
+                    "nombreCompleto": "María Elisa Suárez Alcalá",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2795,
+                    "nombreCompleto": "María Mercedes Fernández Cruz",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3607,
+                    "nombreCompleto": "Marta de Jesús Collado Ozoria de López",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3501,
+                    "nombreCompleto": "Mateo Evangelista Espaillat Tavárez",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 1494,
+                    "nombreCompleto": "Máximo  Castro ",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3502,
+                    "nombreCompleto": "Mélido  Mercedes Castillo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3407,
+                    "nombreCompleto": "Melvin Alexis Lara Melo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3472,
+                    "nombreCompleto": "Miguel Alberto Bogaert Marra",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3474,
+                    "nombreCompleto": "Miguel Ángel de los Santos Figueroa",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3475,
+                    "nombreCompleto": "Moisés  Ayala Pérez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3412,
+                    "nombreCompleto": "Napoleón  López Rodríguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3532,
+                    "nombreCompleto": "Nelsa Shoraya Suárez Ariza",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3533,
+                    "nombreCompleto": "Nelson Rafael Marmolejos Gil",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3503,
+                    "nombreCompleto": "Nicolás  Hidalgo Almánzar",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3411,
+                    "nombreCompleto": "Nicolás Tolentino López Mercado",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3355,
+                    "nombreCompleto": "Nidio  Encarnación Santiago",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3505,
+                    "nombreCompleto": "Nolberto  Ortiz De La Cruz",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3534,
+                    "nombreCompleto": "Norberto  Rodríguez Vásquez",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3535,
+                    "nombreCompleto": "Olfanny Yuverka Méndez Matos",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3536,
+                    "nombreCompleto": "Omar Leonel Fernández Domínguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3420,
+                    "nombreCompleto": "Orlando Antonio Martínez Peña",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3476,
+                    "nombreCompleto": "Orlando Salvador Jorge Villegas",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3477,
+                    "nombreCompleto": "Otoniel  Tejeda Martínez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3478,
+                    "nombreCompleto": "Pedro Antonio Martínez Moronta",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3440,
+                    "nombreCompleto": "Pedro Antonio Tineo Núñez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3506,
+                    "nombreCompleto": "Pedro César Mota Pacheco",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3507,
+                    "nombreCompleto": "Pedro Julio Alcántara ",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 2772,
+                    "nombreCompleto": "Pedro Tomás Botello Solimán",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1592,
+                    "nombreCompleto": "Plutarco  Pérez ",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3537,
+                    "nombreCompleto": "Priscila Celvia D´Oleo Agüero",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2776,
+                    "nombreCompleto": "Radhamés  Camacho Cuevas",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3538,
+                    "nombreCompleto": "Rafael Aníbal Díaz Rodríguez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2760,
+                    "nombreCompleto": "Rafael Antonio Abel Lora",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3479,
+                    "nombreCompleto": "Rafael Augusto Castillo Casado",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3480,
+                    "nombreCompleto": "Rafael  Cuevas Jiménez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 2784,
+                    "nombreCompleto": "Rafael Tobías Crespo Pérez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3364,
+                    "nombreCompleto": "Rafaela  Alburquerque de González",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3508,
+                    "nombreCompleto": "Ramón Alberto Dorrejo Calvo",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3509,
+                    "nombreCompleto": "Ramón Aníbal Olea Mejía",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1509,
+                    "nombreCompleto": "Ramón Antonio Bueno Patiño",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3539,
+                    "nombreCompleto": "Ramón María Ceballo Martes",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3540,
+                    "nombreCompleto": "Ramón Mayobanex Martínez Durán",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3376,
+                    "nombreCompleto": "Rogelio Alfonso Genao Lanza",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3541,
+                    "nombreCompleto": "Román  de Jesús Vargas",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3481,
+                    "nombreCompleto": "Rosa Amalia Pilarte López",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3372,
+                    "nombreCompleto": "Rosa Hilda Genao Díaz",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3482,
+                    "nombreCompleto": "Rosendy Joel Polanco Polanco",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1513,
+                    "nombreCompleto": "Rubén Darío Maldonado Díaz",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 1583,
+                    "nombreCompleto": "Rudy María Méndez ",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3510,
+                    "nombreCompleto": "Sadoky  Duarte Suárez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3356,
+                    "nombreCompleto": "Sandra Herminia Abinader Suero de Prieto",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1517,
+                    "nombreCompleto": "Santiago  Vilorio Lizardo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3562,
+                    "nombreCompleto": "Saury Antonio Mota Ramírez",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3430,
+                    "nombreCompleto": "Sergio  Moya de la Cruz",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3542,
+                    "nombreCompleto": "Servia Augusta Familia Echabarría",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 3543,
+                    "nombreCompleto": "Sócrates  Pérez Lorenzo",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3544,
+                    "nombreCompleto": "Sonia  Agüero Morales",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 1574,
+                    "nombreCompleto": "Tulio  Jiménez Díaz",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3563,
+                    "nombreCompleto": "Verónica María Contreras de Jesús",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3401,
+                    "nombreCompleto": "Víctor Manuel Fadul Lantigua",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1621,
+                    "nombreCompleto": "Víctor Valdemar Suárez Díaz",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3564,
+                    "nombreCompleto": "Ycelmary  Brito O´Neal",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1559,
+                    "nombreCompleto": "Ydenia  Doñé Tiburcio",
+                    "presente": true,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 3511,
+                    "nombreCompleto": "Yenrry Manuel Acosta Ovalle",
+                    "presente": false,
+                    "excusa": true
+                },
+                {
+                    "legisladorId": 1553,
+                    "nombreCompleto": "Ysabel  de la Cruz Javier",
+                    "presente": false,
+                    "excusa": false
+                },
+                {
+                    "legisladorId": 1528,
+                    "nombreCompleto": "Yuderka Yvelisse de la Rosa Guerrero",
+                    "presente": false,
+                    "excusa": false
+                }
+            ]
+        }
     }
 ]

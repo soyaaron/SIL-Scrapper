@@ -1,9 +1,14 @@
 import requests
-import json
+import json 
+import uuid
+from azure.cosmos import CosmosClient, PartitionKey, exceptions
 
 
 resp = []
 formatted_data = []
+resumen_sesion = []
+asistencia = []
+
 #********** GET ID SESION ************
 sesiones_url = "https://www.diputadosrd.gob.do/sil/api/sesion/sesiones?page=1&keyword="
 
@@ -19,7 +24,6 @@ response_resumen_asistencia = requests.get(sesiones_url)
 r  = response_resumen_asistencia.json()
 id_asistencia = str(r['id'])
 
-resumen_sesion = []
 resumen_sesion.append({
     'id_asistencia': r['id'],
     'id_sesion': r['sesion']['id'],
@@ -31,7 +35,7 @@ resumen_sesion.append({
     'cantidadAusentes':r['cantidadAsistencia']['cantidadAusentes'],
     'totalLegisladores':r['cantidadAsistencia']['totalLegisladores'],
 })
-formatted_data.append({'resumen_sesion':resumen_sesion})
+#formatted_data.append({'resumen_sesion':resumen_sesion})
 
 
 #*********************** GET LISTA ASISTENCIA ***************************************
@@ -53,15 +57,56 @@ for x in range(19):
         presente = result['presente']
         excusa = result['excusa']
         
-        
-        formatted_data.append({
+        asistencia.append({
             'legisladorId': legislador_id,
             'nombreCompleto': nombre_completo,
             'presente': presente,
             'excusa': excusa
         })
+    
+formatted_data.append({
+    'sesion':({
+    'resumen_sesion':resumen_sesion,
+    'asistencia':asistencia 
+    })
+    })
 
-with open("gente.json","w", encoding='utf-8') as write_file:
-    json.dump(formatted_data, write_file, ensure_ascii=False, indent=4)
+formatted_data = [
+    {
+        'id': str(uuid.uuid4()),  # Generate a unique ID for the document
+        'sesion': {
+            'resumen_sesion': resumen_sesion,
+            'asistencia': asistencia 
+        }
+    }
+]
 
-print(formatted_data)
+
+#with open("gente.json","w", encoding='utf-8') as write_file:
+#    json.dump(formatted_data, write_file, ensure_ascii=False, indent=4)
+
+#************* Cosmos DB handling ************
+
+endpoint = "https://sil-bot-db.documents.azure.com:443/"
+key="o5YF7FZfkqIJWAG8vqh5LciXwPst5IwloqPqszb4LMB9gkFQXo73MMFWuzeCjF5pw9ggHpP9FYJxACDbtbdGHw=="
+database_name="ToDoList"
+container_name="Sesiones"
+
+client = CosmosClient(endpoint, key)
+database = client.create_database_if_not_exists(id=database_name)
+container = database.create_container_if_not_exists(
+ id=container_name,
+ partition_key=PartitionKey(path="/azureid"),
+ offer_throughput=400   
+)
+
+for item in formatted_data:
+    try:
+        container.create_item(body=item)
+        print("Item created successfully")
+    except exceptions.CosmosResourceExistsError:
+        print("Item already exists")
+    except exceptions.CosmosHttpResponseError as e:
+        print(f"An error occurred: {e.message}")
+
+print("Upload complete")
