@@ -1,13 +1,39 @@
+import configparser
 import requests
 import json 
 import uuid
 from azure.cosmos import CosmosClient, PartitionKey, exceptions
 
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+endpoint = config.get('Database','endpoint')
+key = config.get('Database','key')
+database_name = config.get('Database','database_name')
+container_name = config.get('Database','container_name')
+
+
+client = CosmosClient(endpoint, key)
+database = client.create_database_if_not_exists(id=database_name)
+container = database.create_container_if_not_exists(
+ id=container_name,
+ partition_key=PartitionKey(path="/azureid"),
+ offer_throughput=400   
+)
 
 resp = []
 formatted_data = []
 resumen_sesion = []
 asistencia = []
+
+#**************Consulta sesion mas reciente en BD *********************
+query_sesion = f"""select top 1 c.sesion.resumen_sesion[0].id_sesion from c order by c.sesion.resumen_sesion[0].id_sesion desc"""
+items = list(container.query_items(
+        query=query_sesion,
+        enable_cross_partition_query=True
+    ))
+id_last_sesion = items[0]['id_sesion']
+print(items[0]['id_sesion'])
 
 #********** GET ID SESION ************
 sesiones_url = "https://www.diputadosrd.gob.do/sil/api/sesion/sesiones?page=1&keyword="
@@ -17,10 +43,16 @@ r  = response_sesiones.json()
 
 id_sesion = str(r['results'][0]['sesionId'])
 
-#********** GET ID ASISTENCIA ************
-sesiones_url = "https://www.diputadosrd.gob.do/sil/api/asistencia/sesion/?sesionId="+id_sesion
+#******************** validacion sesion reciente. ***********
+if id_sesion == id_last_sesion:
+    print('funciono', id_sesion, id_last_sesion)
 
-response_resumen_asistencia = requests.get(sesiones_url)
+
+#********** GET ID ASISTENCIA ************
+
+sesion_url = f"https://www.diputadosrd.gob.do/sil/api/asistencia/sesion/?sesionId={id_sesion}"
+
+response_resumen_asistencia = requests.get(sesion_url)
 r  = response_resumen_asistencia.json()
 id_asistencia = str(r['id'])
 
@@ -34,6 +66,7 @@ resumen_sesion.append({
     'cantidadPresentes':r['cantidadAsistencia']['cantidadPresentes'],
     'cantidadAusentes':r['cantidadAsistencia']['cantidadAusentes'],
     'totalLegisladores':r['cantidadAsistencia']['totalLegisladores'],
+    'source': 'https://www.diputadosrd.gob.do/sil/sesion/'+id_sesion
 })
 #formatted_data.append({'resumen_sesion':resumen_sesion})
 
@@ -86,19 +119,6 @@ formatted_data = [
 #    json.dump(formatted_data, write_file, ensure_ascii=False, indent=4)
 
 #************* Cosmos DB handling ************
-
-endpoint = "https://sil-bot-db.documents.azure.com:443/"
-key="o5YF7FZfkqIJWAG8vqh5LciXwPst5IwloqPqszb4LMB9gkFQXo73MMFWuzeCjF5pw9ggHpP9FYJxACDbtbdGHw=="
-database_name="ToDoList"
-container_name="Sesiones"
-
-client = CosmosClient(endpoint, key)
-database = client.create_database_if_not_exists(id=database_name)
-container = database.create_container_if_not_exists(
- id=container_name,
- partition_key=PartitionKey(path="/azureid"),
- offer_throughput=400   
-)
 
 for item in formatted_data:
     try:
