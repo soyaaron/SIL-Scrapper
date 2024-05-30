@@ -23,6 +23,4 @@ jobs:
         python -m pip install -r requirements.txt
 
     - name: Run script
-      run: |
-        cd SIL-Scrapper
-        python main.py
+      run:  python main.py
