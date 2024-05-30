@@ -3,7 +3,7 @@ name: Run Python Script
 on:
   schedule:
     - cron: "0 0 * * *"  # This cron expression runs at 12 AM UTC daily
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
