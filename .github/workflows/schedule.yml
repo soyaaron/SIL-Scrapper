@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # This cron expression runs at 12 AM UTC daily
+    - cron: "0 0 * * *"  
   workflow_dispatch:
 jobs:
   build:
@@ -23,6 +23,4 @@ jobs:
         python -m pip install -r requirements.txt
 
     - name: Run script
-      run: |
-        source .venv/bin/activate
-        python c:/Proyectos/SIL-Scrapper/main.py
+      run: python c:/Proyectos/SIL-Scrapper/main.py
