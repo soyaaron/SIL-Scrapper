@@ -1,16 +1,14 @@
-import configparser
+import os
 import requests
 import json
 import uuid
 from azure.cosmos import CosmosClient, PartitionKey, exceptions
 
-config = configparser.ConfigParser()
-config.read('config.ini')
-
-endpoint = config.get('Database', 'endpoint')
-key = config.get('Database', 'key')
-database_name = config.get('Database', 'database_name')
-container_name = config.get('Database', 'container_name')
+# Read environment variables
+endpoint = os.getenv("ENDPOINT")
+key = os.getenv("KEY")
+database_name = os.getenv("DATABASE_NAME")
+container_name = os.getenv("CONTAINER_NAME")
 
 client = CosmosClient(endpoint, key)
 database = client.create_database_if_not_exists(id=database_name)
