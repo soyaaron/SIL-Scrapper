@@ -24,6 +24,5 @@ jobs:
 
     - name: Run script
       run: |
-        cp config.ini.sample config.ini  # Adjust if necessary
         source .venv/bin/activate
         python c:/Proyectos/SIL-Scrapper/main.py
