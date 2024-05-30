@@ -9,13 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up environment variables
-        run: |
-          echo "CONTAINER_NAME=${{ secrets.CONTAINER_NAME }}" >> $GITHUB_ENV
-          echo "DATABASE_NAME=${{ secrets.DATABASE_NAME }}" >> $GITHUB_ENV
-          echo "ENDPOINT=${{ secrets.ENDPOINT }}" >> $GITHUB_ENV
-          echo "KEY=${{ secrets.KEY }}" >> $GITHUB_ENV
-
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -30,4 +23,9 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Run script
+        env:
+          CONTAINER_NAME: ${{ secrets.CONTAINER_NAME }}
+          DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
+          ENDPOINT: ${{ secrets.ENDPOINT }}
+          KEY: ${{ secrets.KEY }}
         run: python main.py
