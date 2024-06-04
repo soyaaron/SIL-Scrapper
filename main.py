@@ -38,7 +38,7 @@ sesiones_url = "https://www.diputadosrd.gob.do/sil/api/sesion/sesiones?page=1&ke
 response_sesiones = requests.get(sesiones_url)
 r = response_sesiones.json()
 
-id_sesion = str(r['results'][0]['sesionId'])  # Ensure id_sesion is a string
+id_sesion = str(r['results'][0]['sesionId']) 
 
 # ******************** validacion sesion reciente. ***********
 if id_sesion == id_last_sesion:
@@ -63,7 +63,7 @@ for id_sesion in range(int(id_last_sesion) + 1, int(id_sesion)):
         'cantidadPresentes': r['cantidadAsistencia']['cantidadPresentes'],
         'cantidadAusentes': r['cantidadAsistencia']['cantidadAusentes'],
         'totalLegisladores': r['cantidadAsistencia']['totalLegisladores'],
-        'source': 'https://www.diputadosrd.gob.do/sil/sesion/' + str(id_sesion)  # Ensure id_sesion is a string
+        'source': 'https://www.diputadosrd.gob.do/sil/sesion/' + str(id_sesion)
     })
     # formatted_data.append({'resumen_sesion':resumen_sesion})
 
@@ -99,16 +99,13 @@ for id_sesion in range(int(id_last_sesion) + 1, int(id_sesion)):
 
     formatted_data = [
         {
-            'id': str(uuid.uuid4()),  # Generate a unique ID for the document
+            'id': str(uuid.uuid4()),
             'sesion': {
                 'resumen_sesion': resumen_sesion,
                 'asistencia': asistencia
             }
         }
     ]
-
-    # with open("gente.json","w", encoding='utf-8') as write_file:
-    #    json.dump(formatted_data, write_file, ensure_ascii=False, indent=4)
 
     # ************* Cosmos DB handling ************
 
